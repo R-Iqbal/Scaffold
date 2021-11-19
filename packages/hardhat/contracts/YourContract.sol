@@ -6,10 +6,9 @@ import "hardhat/console.sol";
 // https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
 
 contract YourContract {
+  uint public contract;
 
-  // event SetPurpose(address sender, string purpose);
-
-  string public purpose = "Building Unstoppable Apps!!!";
+  string public purpose = "My First Contract";
 
   constructor() {
     // what should we do on deploy?
